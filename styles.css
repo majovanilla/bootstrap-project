@@ -1,0 +1,12 @@
+* {
+  border: solid 1px;
+  height: auto;
+}
+
+section {
+    padding-left: 30px;
+}
+
+main section {
+    padding-left: 0;
+}
