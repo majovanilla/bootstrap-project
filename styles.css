@@ -93,3 +93,24 @@ main article img {
   padding-right: 0;
 }
 
+.sm-subtitle {
+  color: black;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.sm-subtitle:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.opinion-tag {
+  color: #555;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  padding-top: 5px;
+}
+
+
