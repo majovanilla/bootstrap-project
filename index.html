@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Newsweek Mockup</title>
 </head>
-<body>
+<body class="container-fluid">
     <header class="container-fluid">
         <div id="red-bar" class="row justify-content-between d-flex align-items-center">
             <p class="align-self-end">Fri, Sep 20, 2019</p>
@@ -36,40 +36,57 @@
         </nav>
     </header>
     <main class="container-fluid row">
-        <section class="col-12 col-md-6 col-lg order-2 order-md-1">
+        <section id="featured-stories" class="col-12 col-md-6 col-lg order-2 order-md-1">
             <h6>FEATURED STORIES</h6>
-            <article>ARTICLE</article>
-            <article>ARTICLE</article>
-            <article>ARTICLE</article>
-            <article>ADD</article>
+            <article>
+                <div class="img-wrapper">
+                    <img class="img-fluid"src="https://d.newsweek.com/en/full/1529552/us-military-budget-russia-sergey-shoigu.jpg?w=397&h=265&q=90&f=bacbf51c9d55b2ece78eba3832c95f82" alt="military vessel">
+                    <div class="img-tag">news</div>
+                </div>
+                <h4>Russia Says U.S. Could Cut Military Budget If It Stopped Attacking Nations</h4>
+                <p>Sergey Shoigu said Russia will focus on weapons to level the playing field against overwhelming U.S. force.</p>
+            </article>
+            <article>
+                <div class="img-wrapper">
+                    <img class="img-fluid"src="https://d.newsweek.com/en/full/1529565/drought-guatemala.jpg?w=397&h=265&q=90&f=29c6450a962acf8299984ad3f1ea3932" alt="indigenous woman">
+                    <div class="img-tag">u.s.</div>
+                </div>
+                <h4>'Educated People' in DHS Know Climate Change Is Driving Migration: Expert</h4>
+                <p>"Some might be hoping...we'll go back to a more enlightened moment in the history of the country," said Oscar Chacón, co‐founder and executive director of Alianza Americas.</p>
+            </article>
+            <article>
+                <div class="img-wrapper">
+                    <img class="img-fluid"src="https://d.newsweek.com/en/full/1529454/candidates-attend-congressional-hispanic-caucus-institutes-presidential-forum.jpg?w=397&h=265&q=90&f=6ccbace76f3116da7433888695a31146" alt="politian speaking">
+                    <div class="img-tag">politics</div>
+                </div>
+                <h4>'Educated People' in DHS Know Climate Change Is Driving Migration: Expert</h4>
+                <p>"Some might be hoping...we'll go back to a more enlightened moment in the history of the country," said Oscar Chacón, co‐founder and executive director of Alianza Americas.</p>
+            </article>
+            <article>
+                <div class="img-wrapper">
+                    <img class="img-fluid"src="https://d.newsweek.com/en/full/1528794/james-cameron.jpg?w=397&h=265&q=90&f=b74aa61b116929666a48b4bc6d2738b3" alt="james cameron inside a small submarine capsule">
+                    <div class="img-tag">tech & science</div>
+                </div>
+                <h4>James Cameron: Our So-Called Civilization Is Using the Ocean as Its Toilet</h4>
+                <p>The director said deep sea research is "shamefully underfunded" and called for a "global fleet of swarm robotics" to study Earth's oceans.</p>
+            </article>
         </section>
-         <div class="col-12 col-md-6 col-lg-5 order-1 order-md-2">
-                <section class="order-1 order-md-1">
-                    <h6>TOP STORY</h6>
-                    <article>ARTICLE</article>
-                </section>
-                <section class="order-12 order-md-2">
-                    <h6>CULTURE AND TRAVEL</h6>
-                    <article>ARTICLE</article>
-                    <article>ARTICLE</article>
-                    <article>ARTICLE</article>
-                    <article>ARTICLE</article>
-                </section>
-                <section class="order-2 order-md-last">
-                    <h6>MORE STORIES</h6>
-                    <article>ARTICLE</article>
-                    <article>ARTICLE</article>
-                    <article>ARTICLE</article>
-                    <article>ARTICLE</article>
-                    <article>ARTICLE</article>
-                    <article>ARTICLE</article>
-                    <article>ARTICLE</article>
-                    <article>ARTICLE</article>
-                </section>
-        </div>
-        <div class="col-12 col-lg order-3 order-md-3">
-            <section>
-                <h6>OPINION</h6>
+        <div id="main-middle" class="col-12 col-md-6 col-lg-5 order-1 order-md-2 d-flex flex-column">
+            <section id="top-story" class="order-md-1">
+                <h6>TOP STORY</h6>
+                <article>
+                    <div class="img-wrapper">
+                        <img class="img-fluid"src="https://d.newsweek.com/en/full/1529568/president-donald-trump.jpg?w=591&h=364&q=90&f=ac255586eee86c1d7b296707222479e4" alt="donald trump speaking">
+                        <div class="img-tag">world</div>
+                    </div>
+                    <h4>Trump's Call With Ukrainian President Dubbed 'Diplomatic Disaster' for Kiev</h4>
+                    <p>The Kiev-based New Europe Center told Newsweek that Ukraine is now caught in a domestic U.S. political battle.</p>
+                </article>
+            </section>
+            <section id="more-stories" class="order-md-3">
+                <h6>MORE STORIES</h6>
+                <article>ARTICLE</article>
+                <article>ARTICLE</article>
                 <article>ARTICLE</article>
                 <article>ARTICLE</article>
                 <article>ARTICLE</article>
@@ -77,7 +94,109 @@
                 <article>ARTICLE</article>
                 <article>ARTICLE</article>
             </section>
-            <section>
+            <section id="culture-travel" class="order-md-2">
+                <h6>CULTURE AND TRAVEL</h6>
+                <div class="row">
+                    <article class=" col-md-6">
+                        <img src="https://d.newsweek.com/en/full/1529195/nobody-told-me.jpg?w=397&h=265&f=8b594eba054467cd8c19c823cbed0534" alt="cocktail drink">
+                        <h5>9 Best Cocktail Bars in New York</h5>
+                        <p>The Big Apple cocktail scene has never been less pretentious—and more expansive—than it is right now.</p>
+                        <p class="c-t-tag">Cocktails</p>
+                    </article>
+                    <article class=" col-md-6">
+                        <img src="https://d.newsweek.com/en/full/1523988/partingshot-andredeshields.jpg?w=397&h=265&f=d298c5bf38784b3a2ee847de6ee2d50c" alt="person with a prize">
+                        <h5>Hadestown's André De Shields Talks Diversity on Broadway</h5>
+                        <p>"There is no one like you. There has never been anyone like you. There shall never be anyone like you. Therefore, know thyself; be thyself."</p>
+                        <p class="c-t-tag">Broadway</p>
+                    </article>
+                    <article class=" col-md-6">
+                        <img src="https://d.newsweek.com/en/full/1528024/downton-abbey.png?w=397&h=265&f=401d1f02c84edc0e27ef96216064d5a3" alt="woman in fancy bedroom">
+                        <h5>Real-life Downton Abbey Available on Airbnb For Under $190 a Night</h5>
+                        <p>"Lord and Lady Carnarvon will welcome guests into their home on arrival, and after settling them into their bedroom, will ask the guests to join them for cocktails before dinner."</p>
+                        <p class="c-t-tag">Downton abbey</p>
+                    </article>
+                    <article class=" col-md-6">
+                        <img src="https://d.newsweek.com/en/full/1524036/produce-farmers-market.jpg?w=397&h=265&f=08bca8a71f837226e0796362b65d3edd" alt="fruits in market">
+                        <h5>How to Succeed at a French Farmers' Market</h5>
+                        <p>Follow these tips from "Cook Like a Local in France" to win at the market every time.</p>
+                        <p class="c-t-tag">France</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <div id="main-right"class="col-12 col-lg order-3 order-md-3">
+            <section id="opinion">
+                <h6>OPINION</h6>
+                <ul>
+                    <li class="list-group list-group-flush flex-row">
+                        <a href="https://www.newsweek.com/gavin-newsom-californias-ambitious-climate-policies-are-fueling-our-booming-economy-trump-1460813">
+                        <img src="https://d.newsweek.com/en/full/1506994/gavin-newsom.png?w=63&amp;h=63&amp;f=5a69f34e1a9db84563ebdf2464f72721" alt="Gavin Newsom">
+                        </a>
+                        <div class="col-9 opinion-text">
+                            <a href="https://www.newsweek.com/gavin-newsom-californias-ambitious-climate-policies-are-fueling-our-booming-economy-trump-1460813">
+                                California's Ambitious Climate Policies Are Fueling Our Economy—and Trump Won't Stop Us
+                            </a>
+                            <p class="opinion-tag">BY GAVIN NEWSOM</p>
+                        </div>
+                    </li>
+                    <li class="list-group list-group-flush flex-row">
+                        <a href="https://www.newsweek.com/climate-change-urban-renaissance-nicholas-stern-1460805">
+                        <img src="https://d.newsweek.com/en/full/1529682/nicholas-stern.png?w=63&h=63&f=255f6318ba77ad1718ed37c0f3012d7c" alt="Nicholas Stern">
+                        </a>
+                        <div class="col-9 opinion-text">
+                            <a href="https://www.newsweek.com/climate-change-urban-renaissance-nicholas-stern-1460805">
+                                Meeting the Challenge of Climate Change Is Key to 21st-Century Urban Growth
+                            </a>
+                            <p class="opinion-tag">BY NICHOLAS STERN</p>
+                        </div>
+                    </li>
+                    <li class="list-group list-group-flush flex-row">
+                        <a href="https://www.newsweek.com/nancy-pelosi-drug-plan-china-competition-price-1460798">
+                        <img src="https://d.newsweek.com/en/full/1507272/newt-gingrich-joe-desantis.png?w=63&h=63&f=1116a1a353a1b965077c9362ecb6fde4" alt="NEWT GINGRICH AND JOE DESANTIS">
+                        </a>
+                        <div class="col-9 opinion-text">
+                            <a href="https://www.newsweek.com/nancy-pelosi-drug-plan-china-competition-price-1460798">
+                                The Only Winner Out of Nancy Pelosi's Drug Plan Will Be China
+                            </a>
+                            <p class="opinion-tag">BY NEWT GINGRICH AND JOE DESANTIS</p>
+                        </div>
+                    </li>
+                    <li class="list-group list-group-flush flex-row">
+                        <a href="https://www.newsweek.com/elizabeth-warren-philosopher-queen-wants-more-power-our-founding-fathers-thought-wise-opinion-1460520">
+                        <img src="https://d.newsweek.com/en/full/1506965/charlie-kirk.png?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410" alt="Charlie Kirk">
+                        </a>
+                        <div class="col-9 opinion-text">
+                            <a href="https://www.newsweek.com/elizabeth-warren-philosopher-queen-wants-more-power-our-founding-fathers-thought-wise-opinion-1460520">
+                                Meet Elizabeth Warren, Philosopher Queen
+                            </a>
+                            <p class="opinion-tag">BY CHARLIE KIRK</p>
+                        </div>
+                    </li>
+                    <li class="list-group list-group-flush flex-row">
+                        <a href="https://www.newsweek.com/lasting-climate-change-solutions-its-time-listen-young-people-color-opinion-1460268">
+                        <img src="https://d.newsweek.com/en/full/1528901/nyiesha-mallet-asli-mwaafrika.png?w=63&h=63&f=303be28fb000279e24c718b54144fa92" alt="NYIESHA MALLET AND ASLI MWAAFRIKA">
+                        </a>
+                        <div class="col-9 opinion-text">
+                            <a href="https://www.newsweek.com/lasting-climate-change-solutions-its-time-listen-young-people-color-opinion-1460268">
+                                Want to Fight Climate Change? Listen to Young People of Color
+                            </a>
+                            <p class="opinion-tag">BY NYIESHA MALLET AND ASLI MWAAFRIKA</p>
+                        </div>
+                    </li>
+                    <li class="list-group list-group-flush flex-row">
+                        <a href="https://www.newsweek.com/america-oil-children-yemen-saudi-iran-1460508">
+                        <img src="https://d.newsweek.com/en/full/106454/anthony-harwood.png?w=63&h=63&f=586f7b7e3b6616431c41feae6fbad599" alt="ANTHONY HARWOOD">
+                        </a>
+                        <div class="col-9 opinion-text">
+                            <a href="https://www.newsweek.com/america-oil-children-yemen-saudi-iran-1460508">
+                                America Looks Away From the Suffering in Yemen—Until Oil Is at Stake
+                            </a>
+                            <p class="opinion-tag">BY ANTHONY HARWOOD</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="latest-news">
                 <h6>LATEST NEWS</h6>
                 <article>ARTICLE</article>
                 <article>ARTICLE</article>

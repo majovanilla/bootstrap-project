@@ -1,13 +1,13 @@
 
 /* GENERAL STYLING */
-* {
+/* * {
   border: solid 1px;
   height: auto;
-}
+} */
 
-section {
+/* section {
   padding-left: 30px;
-}
+} */
 
 .list-group-item {
   padding: 0.1rem 1.25rem;
@@ -54,6 +54,42 @@ header div .align-self-end {
 
 /* ---------------MAIN SECTION------------ */
 
+main {
+  margin-top: 20px;
+}
 main section {
   padding-left: 0;
   }
+
+main article img {
+  width: 100%;
+}
+
+.img-wrapper {
+  position: relative;
+}
+.img-tag {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  color: #f72210;
+  background: rgba(255,255,255,0.9);
+  padding: 5px 10px;
+  font-weight: bold;
+  text-transform: uppercase; 
+}
+
+#culture-travel {
+  background-color: #f4f5f6;
+}
+
+#opinion ul {
+  padding-inline-start: 0;
+}
+
+.opinion-text {
+  padding-right: 0;
+}
+
