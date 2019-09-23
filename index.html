@@ -9,17 +9,18 @@
     <title>Newsweek Mockup</title>
 </head>
 <body>
-    <header>
-        <div class="container-fluid row justify-content-between">
-            <p>Fri, Sep 20, 2019</p>
-            <img src="" alt="">
-            <div>
+    <header class="container-fluid">
+        <div id="red-bar" class="row justify-content-between d-flex align-items-center">
+            <p class="align-self-end">Fri, Sep 20, 2019</p>
+            <img id="main-logo"src="img/main-logo.png" alt="newsweek logo">
+            <div class="align-self-end">
                 <a href="">SIGN IN</a>
                 <a href="">SUBSCRIBE</a>
             </div>
+            <div id="red-bar-extra"></div>
         </div>
-        <nav class="d-none d-lg-block">
-            <ul class="list-group list-group-horizontal">
+        <nav class="row d-none d-lg-flex">
+            <ul class="row list-group list-group-horizontal">
                 <li class="list-group-item"><a href="">U.S.</a></li>
                 <li class="list-group-item"><a href="">World</a></li>
                 <li class="list-group-item"><a href="">Business</a></li>
@@ -31,6 +32,7 @@
                 <li class="list-group-item"><a href="">Opinion</a></li>
                 <li class="list-group-item"><a href="">Vantage</a></li>
             </ul>
+            <div id="nav-search" class="d-flex align-items-center"><a href="">Search</a></div>
         </nav>
     </header>
     <main class="container-fluid row">
@@ -228,29 +230,31 @@
             </ul>
         </div>
         <div class="row">
-            <ul class=" col-lg-8 list-group list-group-horizontal d-inline-flex">
-                <li><a href="">About Us</a></li>
-                <li><a href="">Corrections</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">Editorial Guidelines</a></li>
-                <li><a href="">Advertise</a></li>
-                <li><a href="">Copyright</a></li>
-                <li><a href="">Terms & Conditions</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Cookie Policy</a></li>
-                <li><a href="">Terms of Sale</a></li>
-                <li><a href="">Archive</a></li>
-                <li><a href="">Announcements</a></li>
-                <li><a href="">Consent Preferences</a></li>
+            <ul class="col-6 list-group list-group-horizontal d-flex flex-wrap align-items-start">
+                <li class="list-group-item "><a href="">About Us</a></li>
+                <li class="list-group-item"><a href="">Corrections</a></li>
+                <li class="list-group-item"><a href="">Contact Us</a></li>
+                <li class="list-group-item"><a href="">Editorial Guidelines</a></li>
+                <li class="list-group-item"><a href="">Advertise</a></li>
+                <li class="list-group-item"><a href="">Copyright</a></li>
+                <li class="list-group-item"><a href="">Terms & Conditions</a></li>
+                <li class="list-group-item"><a href="">Privacy Policy</a></li>
+                <li class="list-group-item"><a href="">Cookie Policy</a></li>
+                <li class="list-group-item"><a href="">Terms of Sale</a></li>
+                <li class="list-group-item"><a href="">Archive</a></li>
+                <li class="list-group-item"><a href="">Announcements</a></li>
+                <li class="list-group-item"><a href="">Consent Preferences</a></li>
             </ul>
-            <label for="ul">Edition: </label>
-            <ul class="col-lg">
+            <div class="col-2">
+                <label for="ul" class="d-flex justify-content-end">Edition: </label>
+            </div>
+            <ul class="col list-group list-group-horizontal d-flex flex-wrap align-items-start">
                 <li class="list-group-item"><a href="">U.S. Edition</a></li>
                 <li class="list-group-item"><a href="">日本</a></li>
                 <li class="list-group-item"><a href="">한국</a></li>
-                <li><a href="">Pakistan</a></li>
-                <li><a href="">Polska</a></li>
-                <li><a href="">România</a></li>
+                <li class="list-group-item"><a href="">Pakistan</a></li>
+                <li class="list-group-item"><a href="">Polska</a></li>
+                <li class="list-group-item"><a href="">România</a></li>
             </ul>
         </div>
     </footer>

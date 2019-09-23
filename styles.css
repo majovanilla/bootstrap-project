@@ -1,12 +1,59 @@
+
+/* GENERAL STYLING */
 * {
   border: solid 1px;
   height: auto;
 }
 
 section {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
-main section {
-    padding-left: 0;
+.list-group-item {
+  padding: 0.1rem 1.25rem;
+  border-top: none;
+  border-bottom: none;
 }
+
+/* ------------HEADER SECTION------------ */
+
+#red-bar {
+  height: 95px;
+  background-color: #e9212e;
+}
+
+#main-logo {
+  height: 60px;
+}
+
+#red-bar-extra {
+  position: absolute;
+  top: 95px;
+  right: 0;
+  width: 80px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+#nav-search {
+  margin-left: 25px;
+}
+
+header {
+  position: relative;
+}
+
+header .list-group-item {
+  line-height: 3;
+}
+
+header div .align-self-end {
+  margin-bottom: 1rem;
+}
+
+/* ---------------MAIN SECTION------------ */
+
+main section {
+  padding-left: 0;
+  }
