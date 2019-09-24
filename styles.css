@@ -1,48 +1,69 @@
 
 /* GENERAL STYLING */
-/* * {
-  border: solid 1px;
-  height: auto;
-} */
-
-/* section {
-  padding-left: 30px;
-} */
 
 * {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-/* body {
-  background-color: #f4f5f6;
-} */
+a:hover {
+  text-decoration: none;
+}
+
 p {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem; 
 }
 
 h4 {
-  color: black;
-  font-weight: bold;
   line-height: normal;
+  font-size: 1.4rem;
+}
+
+#magazine h4 {
   font-size: 1.3rem;
-  padding-top: 10px;
 }
 
 h4:hover {
   text-decoration: red underline;
 }
 
+nav h4:hover {
+  text-decoration: none;
+}
+
 h5 {
   font-family: serif;
 }
 
-h6 {
-  color: rgba(3,3,3,.4);
-  font-weight: bold;
-}
-
 .culture-travel {
   color: rgba(39,39,39,.5);
+}
+
+.sm-subtitle {
+  color: black;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.sm-subtitle:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+#more-stories .sm-subtitle:hover {
+  color: black;
+  text-decoration: underline red;
+}
+
+.newsletter {
+  line-height: 0.95;
+  font-size: 1.2rem;
+}
+
+.icon {
+  width: 38px;
+  height: 30px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;;
 }
 
 /* ------------HEADER SECTION------------ */
@@ -90,41 +111,24 @@ main {
 }
 main section {
   padding-left: 0;
-  }
+}
 
 main article img {
   width: 100%;
 }
 
-.img-wrapper {
-  position: relative;
-}
 .img-tag {
-  width: auto;
-  height: auto;
-  bottom: 0;
+  bottom: 0px;
   left: 0;
   position: absolute;
   color: #f72210;
   background: rgba(255,255,255,0.9);
-  padding: 5px 10px;
   font-weight: bold;
   text-transform: uppercase; 
 }
 
-#culture-travel {
+.gray-background {
   background-color: #f4f5f6;
-}
-
-.sm-subtitle {
-  color: black;
-  font-weight: bold;
-  line-height: 1.4;
-}
-
-.sm-subtitle:hover {
-  color: #f72210;
-  text-decoration: none;
 }
 
 .opinion-tag {
@@ -138,12 +142,24 @@ main article img {
 
 .c-t-tag {
   background-color: #c2d4d7;
-  color: #333;
-  font-size: .9rem;  
+  color: #333; 
 }
 
 .c-t-tag:hover {
   background-color: #272727;
   color: #c2d4d7; 
+}
+
+/* ---------------MAIN SECTION------------ */
+
+.mag-tag {
+  color: white;
+  background: #f72210;
+  text-transform: uppercase; 
+}
+
+.mag-h6 {
+  color: #f72210;
+  text-transform: uppercase; 
 }
 
