@@ -353,18 +353,18 @@
     <section id="magazine" class="container-fluid mt-5">
         <div class="row align-items-end">
             <article class="col-md-3">
-                <div class="position-relative align-self-stretch">
+                <div class="position-relative">
                     <a href=""><img class="img-fluid w-100" src="https://d.newsweek.com/en/full/1528173/september-27-2019.jpg?w=290&h=387&q=90&f=844050593ccf083d4504c9bae1bc1262" alt="Magazine cover"></a>
                     <div class="img-tag px-2">SEPTEMBER 27 ISSUE</div>
                 </div>
-                <div class="gray-background py-2 text-center justify-content-start">SEE ALL FEATURES ></div>
+                <div class="gray-background py-2 text-center">SEE ALL FEATURES ></div>
             </article>
-            <div class="col-md-9 d-flex flex-column">
+            <div class="col-md-9">
                 <div class="d-flex flex-row border-bottom mb-3 justify-content-center">
                     <span class="icon mx-2"></span>
                     <h3 class="section-title">IN THE MAGAZINE</h3>
                 </div>
-                <div class="row d-flex align-items-end">
+                <div class="row">
                     <article class="col-md-4">
                         <a href=""><img class="img-fluid w-100" src="https://d.newsweek.com/en/full/1527363/fe-trumpyouth-01.jpg?w=466&h=311&l=54&t=45&q=90&f=0cddead51969908024398908bab68c88" alt="Trump rally"></a>
                         <div class="d-inline-flex align-items-center my-2">
@@ -770,53 +770,65 @@
             </aside>
         </div>
     </section>
-    <aside class="container-fluid mt-4 pt-4 border-top pb-2">
-        <div class="row">
-            <article class="col-lg-7 position-relative flex-row">
-                    <div class="gray-background p-4">
-                        <img class="" src="https://d.newsweek.com/en/full/1525316/september-13-20-2019.jpg?w=170&q=95&f=a2d8129b9436ef241879d6c0a2428d12" alt="magazine cover">
-                        <img class="position-absolute pl-5" src="https://d.newsweek.com/en/full/1528173/september-27-2019.jpg?w=170&q=95&f=9ebb28c380cf4a6557a4cf4d18d55d2a" alt="magazine cover">
+    <aside>
+        <div class="container-fluid mt-4 pt-4 pb-2 pr-5 row">
+            <div class="col-lg-7 col-xl-8 p-0 pr-4 pb-3">
+                <h3 class="section-title-2 font-weight-bold text-uppercase p-0">subscribe</h3>          
+                <article class="gray-background row justify-content-between position-relative pb-3 m-0">
+                    <div class="col-4 p-4">
+                        <img class="" src="https://d.newsweek.com/en/full/1525316/september-13-20-2019.jpg?w=170&amp;q=95&amp;f=a2d8129b9436ef241879d6c0a2428d12" alt="magazine cover">
+                        <img class="img-newsletter position-absolute pl-5" src="https://d.newsweek.com/en/full/1528173/september-27-2019.jpg?w=170&amp;q=95&amp;f=9ebb28c380cf4a6557a4cf4d18d55d2a" alt="magazine cover">
                     </div>
-                    <div class="gray-background pl-4">
-                        <div class="d-flex align-items-center">
-                            <span class="icon mr-2"></span>
-                            <h4 class="font-weight-bold text-dark newsletter">SIGN UP FOR OUR NEWSLETTER</h4>
-                        </div>
-                        <button class="btn btn-secondary rounded-0 font-weight-bold my-2 align-self-start">SIGN UP ></button>
-                        <h8 class="font-weight-bold text-secondary">Update your preferences >></h8>
+                    <div class="col-7 col-md-8 col-lg-6 col-xl-8 pl-5 d-flex flex-column align-items-start justify-content-center">
+                        <h4 class="font-weight-bold text-dark">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
+                        <p class="text-secondary mb-0">All Access + Weekly Delivery.</p>
+                        <p class="text-secondary">Choose A Membership That's Perfect for You!</p>
+                        <button class="btn btn-danger rounded-0 font-weight-bold my-2">SUBSCRIBE &gt;</button>
                     </div>
-            </article>
-            <article class="col-lg-5">NEWSLETTER</article>
+                </article>
+            </div>
+            <div class="col-lg-5 col-xl-4 p-0 pr-4">
+                <h3 class="section-title-2 font-weight-bold text-uppercase p-0">newsletter</h3>          
+                <article class="d-flex flex-row">
+                    <div class="col-4 newsletter-div"></div>
+                    <div class="col-8 col-sm-6 col-md-7 col-xl-6 py-4 pl-4 pr-0 align-items-start justify-content-start border">
+                        <h4 class="font-weight-bold text-dark w-50">Daily Briefing</h4>
+                        <p class="text-secondary pr-4 pt-1">
+                            Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+                        <button class="btn btn-danger rounded-0 font-weight-bold">SIGN UP &gt;</button>
+                    </div>
+                </article>
+            </div>
         </div>
     </aside>
-    <footer>
-        <div class="row">
-            <ul>
-                <li><a href=""><img src="" alt=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
+    <footer class="container-fluid px-5">
+        <div class="row align-items-center border-bottom pb-2 mb-2">
+            <img class="h-50" id="footer-logo"src="https://www.iawaketechnologies.com/wp-content/uploads/2019/03/newsweek-logo-300x46.png" alt="newsweek logo">
+            <span>© 2019 NEWSWEEK</span>
+            <div>
+                <ul class="list-group list-group-horizontal list-group-flush">
+                    <li class="list-item"><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
         </div>
         <div class="row">
-            <ul class="col-6 list-group list-group-horizontal d-flex flex-wrap align-items-start">
-                <li class="list-group-item "><a href="">About Us</a></li>
-                <li class="list-group-item"><a href="">Corrections</a></li>
-                <li class="list-group-item"><a href="">Contact Us</a></li>
-                <li class="list-group-item"><a href="">Editorial Guidelines</a></li>
-                <li class="list-group-item"><a href="">Advertise</a></li>
-                <li class="list-group-item"><a href="">Copyright</a></li>
-                <li class="list-group-item"><a href="">Terms & Conditions</a></li>
-                <li class="list-group-item"><a href="">Privacy Policy</a></li>
-                <li class="list-group-item"><a href="">Cookie Policy</a></li>
-                <li class="list-group-item"><a href="">Terms of Sale</a></li>
-                <li class="list-group-item"><a href="">Archive</a></li>
-                <li class="list-group-item"><a href="">Announcements</a></li>
-                <li class="list-group-item"><a href="">Consent Preferences</a></li>
+            <ul class="col-6 list-group list-group-horizontal d-flex flex-wrap align-items-start list-group-flush">
+                <li class="list-group-item border-0 p-1 border-0 p-2"><a href="">About Us</a></li>
+                <li class="list-group-item border-0 p-1"><a href="">Corrections</a></li>
+                <li class="list-group-item border-0 p-1"><a href="">Contact Us</a></li>
+                <li class="list-group-item border-0 p-1"><a href="">Editorial Guidelines</a></li>
+                <li class="list-group-item border-0 p-1"><a href="">Advertise</a></li>
+                <li class="list-group-item border-0 p-1"><a href="">Copyright</a></li>
+                <li class="list-group-item border-0 p-1"><a href="">Terms & Conditions</a></li>
+                <li class="list-group-item border-0 p-1"><a href="">Privacy Policy</a></li>
+                <li class="list-group-item border-0 p-1"><a href="">Cookie Policy</a></li>
+                <li class="list-group-item border-0 p-1"><a href="">Terms of Sale</a></li>
+                <li class="list-group-item border-0 p-1"><a href="">Archive</a></li>
+                <li class="list-group-item border-0 p-1"><a href="">Announcements</a></li>
+                <li class="list-group-item border-0 p-1"><a href="">Consent Preferences</a></li>
             </ul>
             <div class="col-2">
                 <label for="ul" class="d-flex justify-content-end">Edition: </label>
