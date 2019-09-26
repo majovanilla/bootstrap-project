@@ -67,7 +67,7 @@ h5 {
 }
 
 .section-title {
-
+  font-size: 1.35rem;
 }
 
 .section-title-2 {
@@ -196,10 +196,31 @@ div .slide-tag {
   background: url(https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf) 50% 0/cover no-repeat;
 }
 
+aside .section-title-2 {
+  font-size: 1rem;
+}
+
 aside h4:hover {
   text-decoration: none;
 }
 
 aside .btn {
   background-color: #f72210;
+}
+
+aside .border-top {
+  border: 2px solid #f4f5f6;
+}
+
+/* ---------------FOOTER SECTION------------ */
+
+footer a,
+footer span {
+  color: rgb(130, 130, 130);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+
+footer a:hover {
+  color: rgb(68, 68, 68);
 }
