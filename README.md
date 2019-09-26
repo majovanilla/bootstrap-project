@@ -100,4 +100,4 @@ Project Link: [https://github.com/majovainilla/bootstrap-project)
 [stars-url]: https://github.com/majovainilla/bootstrap-project/stargazers
 [issues-shield]: https://img.shields.io/github/issues/majovainilla/bootstrap-project.svg?style=flat-square
 [issues-url]: https://github.com/majovainilla/bootstrap-project/issues
-[product-screenshot]: img/project.png
+[product-screenshot]: img/project.PNG
