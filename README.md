@@ -22,7 +22,7 @@
 <br />
 <p align="center">
   <a href="https://majovainilla.github.io/bootstrap-project/">
-    <img src="img/mLogo.png" alt="Logo" width="80" height="80">
+    <img src="https://pathwright.imgix.net/https%3A%2F%2Fcdn.filestackcontent.com%2Fapi%2Ffile%2FhFM023QFSSVrsK4ZUCZd%3Fsignature%3D888b9ea3eb997a4d59215bfbe2983c636df3c7da0ff8c6f85811ff74c8982e34%26policy%3DeyJjYWxsIjogWyJyZWFkIiwgInN0YXQiLCAiY29udmVydCJdLCAiZXhwaXJ5IjogNDYyMDM3NzAzMX0%253D?fit=crop&ixlib=python-1.1.0&w=500&s=2c2c850301ed2185fd4227f759f77483" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Bootstrap Project</h3>
@@ -100,4 +100,4 @@ Project Link: [https://github.com/majovainilla/bootstrap-project)
 [stars-url]: https://github.com/majovainilla/bootstrap-project/stargazers
 [issues-shield]: https://img.shields.io/github/issues/majovainilla/bootstrap-project.svg?style=flat-square
 [issues-url]: https://github.com/majovainilla/bootstrap-project/issues
-[product-screenshot]: img/screenshot.PNG
+[product-screenshot]: img/project.png
