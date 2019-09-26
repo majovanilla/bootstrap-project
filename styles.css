@@ -20,16 +20,16 @@ nav a {
   font-size: 1.4rem;
 }
 
-a:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
 footer a,
 footer span {
   color: rgb(130, 130, 130);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
+}
+
+a:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 footer a:hover {
