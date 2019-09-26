@@ -9,11 +9,6 @@ a {
   color: inherit;
 }
 
-a:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem; 
@@ -25,11 +20,12 @@ nav a {
   font-size: 1.4rem;
 }
 
-header h4 {
-  font-size: 1.3rem;
+a:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
-#magazine h4 {
+header h4 {
   font-size: 1.3rem;
 }
 
@@ -41,12 +37,16 @@ nav h4:hover {
   text-decoration: none;
 }
 
+#magazine h4 {
+  font-size: 1.3rem;
+}
+
 h5 {
   font-family: serif;
 }
 
 .culture-travel {
-  color: rgba(39,39,39,.5);
+  color: rgba(39, 39, 39, 0.5);
 }
 
 .sm-subtitle {
@@ -117,7 +117,7 @@ h5 {
 }
 
 #nav-search {
-  color: rgba(0,0,0,.55);
+  color: rgba(0, 0, 0, 0.55);
 }
 
 header {
@@ -151,6 +151,7 @@ header div .align-self-end {
 main {
   margin-top: 20px;
 }
+
 main section {
   padding-left: 0;
 }
@@ -160,13 +161,13 @@ main article img {
 }
 
 .img-tag {
-  bottom: 0px;
+  bottom: 0;
   left: 0;
   position: absolute;
   color: #f72210;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255, 255, 255, 0.9);
   font-weight: bold;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 .gray-background {
@@ -184,12 +185,12 @@ main article img {
 
 .c-t-tag {
   background-color: #c2d4d7;
-  color: #333; 
+  color: #333;
 }
 
 .c-t-tag:hover {
   background-color: #272727;
-  color: #c2d4d7; 
+  color: #c2d4d7;
 }
 
 /* ---------------MAGAZINE SECTION------------ */
@@ -197,12 +198,12 @@ main article img {
 .mag-tag {
   color: white;
   background: #f72210;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 .mag-h6 {
   color: #f72210;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 /* ---------------SLIDE SECTION------------ */
