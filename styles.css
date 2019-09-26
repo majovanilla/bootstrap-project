@@ -1,4 +1,101 @@
 
+/* GENERAL STYLING */
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+
+h4,
+nav a {
+  line-height: normal;
+  font-size: 1.4rem;
+}
+
+footer a,
+footer span {
+  color: rgb(130, 130, 130);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+
+footer a:hover {
+  color: rgb(68, 68, 68);
+}
+
+a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+header h4 {
+  font-size: 1.3rem;
+}
+
+h4:hover {
+  text-decoration: red underline;
+}
+
+nav h4:hover {
+  text-decoration: none;
+}
+
+#magazine h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-family: serif;
+}
+
+.culture-travel {
+  color: rgba(39, 39, 39, 0.5);
+}
+
+.sm-subtitle {
+  color: black;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.sm-subtitle:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+#more-stories .sm-subtitle:hover {
+  color: black;
+  text-decoration: underline red;
+}
+
+.newsletter {
+  line-height: 0.95;
+  font-size: 1.2rem;
+}
+
+.icon {
+  width: 38px;
+  height: 30px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.section-title {
+  font-size: 1.35rem;
+}
+
+.section-title-2 {
+  color: #f72210;
+  font-size: 1.35rem;
+}
+
 /* ------------HEADER SECTION------------ */
 
 #red-bar,
@@ -158,103 +255,4 @@ aside .btn {
 
 aside .border-top {
   border: 2px solid #f4f5f6;
-}
-
-/* ---------------FOOTER SECTION------------ */
-
-footer a,
-footer span {
-  color: rgb(130, 130, 130);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9rem;
-}
-
-footer a:hover {
-  color: rgb(68, 68, 68);
-}
-
-/* GENERAL STYLING */
-
-* {
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-a {
-  color: inherit;
-}
-
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9rem;
-}
-
-h4,
-nav a {
-  line-height: normal;
-  font-size: 1.4rem;
-}
-
-a:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
-header h4 {
-  font-size: 1.3rem;
-}
-
-h4:hover {
-  text-decoration: red underline;
-}
-
-nav h4:hover {
-  text-decoration: none;
-}
-
-#magazine h4 {
-  font-size: 1.3rem;
-}
-
-h5 {
-  font-family: serif;
-}
-
-.culture-travel {
-  color: rgba(39, 39, 39, 0.5);
-}
-
-.sm-subtitle {
-  color: black;
-  font-weight: bold;
-  line-height: 1.4;
-}
-
-.sm-subtitle:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
-#more-stories .sm-subtitle:hover {
-  color: black;
-  text-decoration: underline red;
-}
-
-.newsletter {
-  line-height: 0.95;
-  font-size: 1.2rem;
-}
-
-.icon {
-  width: 38px;
-  height: 30px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-}
-
-.section-title {
-  font-size: 1.35rem;
-}
-
-.section-title-2 {
-  color: #f72210;
-  font-size: 1.35rem;
 }
