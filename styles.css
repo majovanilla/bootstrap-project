@@ -5,7 +5,12 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+a {
+  color: inherit;
+}
+
 a:hover {
+  color: #f72210;
   text-decoration: none;
 }
 
@@ -14,9 +19,14 @@ p {
   font-size: 0.9rem; 
 }
 
-h4 {
+h4,
+nav a {
   line-height: normal;
   font-size: 1.4rem;
+}
+
+header h4 {
+  font-size: 1.3rem;
 }
 
 #magazine h4 {
@@ -77,18 +87,27 @@ h5 {
 
 /* ------------HEADER SECTION------------ */
 
-#red-bar {
-  height: 95px;
+#red-bar,
+#small-red-bar {
+  /* height: 95px; */
   background-color: #e9212e;
+}
+
+#small-red-bar {
+  /* height: 50px; */
 }
 
 #main-logo {
   height: 60px;
 }
 
+#main-logo-small {
+  height: 20px;
+}
+
 #red-bar-extra {
   position: absolute;
-  top: 95px;
+  bottom: -12px;
   right: 0;
   width: 80px;
   background-color: #f72210;
@@ -98,7 +117,7 @@ h5 {
 }
 
 #nav-search {
-  margin-left: 25px;
+  color: rgba(0,0,0,.55);
 }
 
 header {
@@ -111,6 +130,20 @@ header .list-group-item {
 
 header div .align-self-end {
   margin-bottom: 1rem;
+}
+
+.btn-outline-danger:hover {
+  color: #f72210;
+  background-color: white;
+}
+
+.navbar-toggler {
+  top: -4px;
+  right: -6px;
+}
+
+.navbar-toggler-icon {
+  color: #fb9a94;
 }
 
 /* ---------------MAIN SECTION------------ */

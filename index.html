@@ -11,31 +11,35 @@
     <title>Newsweek Mockup</title>
 </head>
 <body class="container px-0 px-xl-5 mw-100 bg-light">
-    <div class="bg-white">
+    <div class="bg-white px-xl-4">
         <header class="container-fluid">
-            <div id="red-bar" class="row justify-content-between d-flex align-items-center">
-                <p class="align-self-end">Fri, Sep 20, 2019</p>
-                <img id="main-logo"src="img/main-logo.png" alt="newsweek logo">
-                <div class="align-self-end">
-                    <a href="">SIGN IN</a>
-                    <a href="">SUBSCRIBE</a>
+            <div id="red-bar" class="d-flex row justify-content-between align-items-end px-4 py-3 pt-lg-3 pb-lg-4 position-relative">
+                <p class="d-none d-lg-flex align-self-end pl-4 text-white mb-0">Fri, Sep 20, 2019</p>
+                <img class="d-none d-lg-flex" id="main-logo" src="img/main-logo.png" alt="newsweek logo">
+                <img class="d-lg-none" id="main-logo-small" src="img/main-logo.png" alt="newsweek logo">
+                <div class="d-flex align-self-end align-items-center mb-0 pr-4 pr-lg-0">
+                    <a class="text-white font-weight-bold pr-4" href="">SIGN IN</a>
+                    <button class="btn btn-outline-danger bg-white rounded-0 mr-4 py-0 font-weight-bold"><a href=""></a>SUBSCRIBE  ></button>
                 </div>
-                <div id="red-bar-extra"></div>
+                <div id="red-bar-extra" class="d-none d-lg-flex"></div>
             </div>
-            <nav class="d-none d-lg-flex justify-content-start border-bottom">
-                <ul class="row list-group list-group-horizontal">
-                    <li class="list-group-item pl-3 py-3 pr-1 border-0"><a href=""><h4 class="font-weight-bold text-dark border-right mb-0 py-0 pr-3">U.S.</h4></a></li>
-                    <li class="list-group-item pl-3 py-3 pr-1 border-0"><a href=""><h4 class="font-weight-bold text-dark border-right mb-0 py-0 pr-3">World</h4></a></li>
-                    <li class="list-group-item pl-3 py-3 pr-1 border-0"><a href=""><h4 class="font-weight-bold text-dark border-right mb-0 py-0 pr-3">Business</h4></a></li>
-                    <li class="list-group-item pl-3 py-3 pr-1 border-0"><a href=""><h4 class="font-weight-bold text-dark border-right mb-0 py-0 pr-3">Tech & Science</h4></a></li>
-                    <li class="list-group-item pl-3 py-3 pr-1 border-0"><a href=""><h4 class="font-weight-bold text-dark border-right mb-0 py-0 pr-3">Culture</h4></a></li>
-                    <li class="list-group-item pl-3 py-3 pr-1 border-0"><a href=""><h4 class="font-weight-bold text-dark border-right mb-0 py-0 pr-3">Newsgeek</h4></a></li>
-                    <li class="list-group-item pl-3 py-3 pr-1 border-0"><a href=""><h4 class="font-weight-bold text-dark border-right mb-0 py-0 pr-3">Sports</h4></a></li>
-                    <li class="list-group-item pl-3 py-3 pr-1 border-0"><a href=""><h4 class="font-weight-bold text-dark border-right mb-0 py-0 pr-3">Health</h4></a></li>
-                    <li class="list-group-item pl-3 py-3 pr-1 border-0"><a href=""><h4 class="font-weight-bold text-dark border-right mb-0 py-0 pr-3">Opinion</h4></a></li>
-                    <li class="list-group-item pl-3 py-3 pr-1 border-0"><a href=""><h4 class="font-weight-bold text-dark mb-0 py-0 pr-3">Vantage</h4></a></li>
+            <button class="navbar-toggler position-absolute d-lg-none" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="navbar-toggler-icon fas fa-bars fa-2x pt-2"></i>
+            </button>
+            <nav class="row navbar-expand-lg justify-content-start border-bottom">
+                <ul id="navbarToggler" class="collapse navbar-collapse py-2 list-unstyled">
+                    <li class="nav-item py-2"><a class="nav-link border-right font-weight-bold py-0 px-3" href="">U.S.</a></li>
+                    <li class="nav-item py-2"><a class="nav-link border-right font-weight-bold py-0 px-3" href="">World</a></li>
+                    <li class="nav-item py-2"><a class="nav-link border-right font-weight-bold py-0 px-3" href="">Business</a></li>
+                    <li class="nav-item py-2"><a class="nav-link border-right font-weight-bold py-0 px-3" href="">Tech & Science</a></li>
+                    <li class="nav-item py-2"><a class="nav-link border-right font-weight-bold py-0 px-3" href="">Culture</a></li>
+                    <li class="nav-item py-2"><a class="nav-link border-right font-weight-bold py-0 px-3" href="">Newsgeek</a></li>
+                    <li class="nav-item py-2"><a class="nav-link border-right font-weight-bold py-0 px-3" href="">Sports</a></li>
+                    <li class="nav-item py-2"><a class="nav-link border-right font-weight-bold py-0 px-3" href="">Health</a></li>
+                    <li class="nav-item py-2"><a class="nav-link border-right font-weight-bold py-0 px-3" href="">Opinion</a></li>
+                    <li class="nav-item py-2"><a class="nav-link font-weight-bold py-0 px-3" href="">Vantage</a></li>
+                    <li id="nav-search" class="order-1 order-lg-last px-3 px-lg-0 align-items-center">Search<a href=""><i class="pl-3 fas fa-search"></i></a></li>
                 </ul>
-                <div id="nav-search" class="d-flex align-items-center"><a href="">Search</a></div>
             </nav>
         </header>
         <main class="container-fluid row">
@@ -170,7 +174,7 @@
                 </section>
             </div>
             <div id="main-right"class="col-12 col-lg order-3 order-md-3">
-                <section id="opinion">
+                <section id="opinion" class="mt-3 mt-lg-0">
                     <h6 class="font-weight-bold text-black-50">OPINION</h6>
                     <ul class="p-0">
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
