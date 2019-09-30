@@ -60,6 +60,10 @@ h5 {
   font-family: serif;
 }
 
+.h7 {
+  font-size: 1.1rem;
+}
+
 .culture-travel {
   color: rgba(39, 39, 39, 0.5);
 }
@@ -104,12 +108,7 @@ h5 {
 
 #red-bar,
 #small-red-bar {
-  /* height: 95px; */
   background-color: #e9212e;
-}
-
-#small-red-bar {
-  /* height: 50px; */
 }
 
 #main-logo {

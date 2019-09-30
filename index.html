@@ -23,7 +23,7 @@
                 </div>
                 <div id="red-bar-extra" class="d-none d-lg-flex"></div>
             </div>
-            <button class="navbar-toggler position-absolute d-lg-none" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button id="toggler" class="navbar-toggler position-absolute d-lg-none" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="toggler" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="navbar-toggler-icon fas fa-bars fa-2x pt-2"></i>
             </button>
             <nav class="row navbar-expand-lg justify-content-start border-bottom">
@@ -100,39 +100,37 @@
                 </section>
                 <section id="more-stories" class="order-md-3 mt-4">
                     <h6 class="font-weight-bold text-black-50 pb-1">MORE STORIES</h6>
-                    <article>
-                        <ul class="pl-0">
-                            <li class="list-group list-group-flush flex-row mb-2 py-3 border-top align-items-start"> 
-                                <a class="col-4 pl-0 img-fluid" href=""><img src="https://d.newsweek.com/en/full/1529343/fe-scotus-01-banner.jpg?w=135&h=90&f=b007d12b69350d31e43b7e1b1b9254c4" alt="LGBT manifestation"></a>
-                                <div>
-                                    <h7 class="d-flex justify-content-stretch mb-2">
-                                        <a class="sm-subtitle" href="">
-                                        Three LGBTQ Cases Set to Test the Supreme Court's Conservative Principles
-                                        </a>
-                                    </h7>
-                                    <p>Three explosive cases are about to test whether conservative Supreme Court justices are seen to rule according to their professed legal principles—or their politics.</p>
-                                </div>
-                            </li>
-                            <li class="list-group list-group-flush flex-row mb-2 py-3 border-top align-items-start"> 
-                                <a class="col-4 pl-0 img-fluid" href=""><img src="https://d.newsweek.com/en/full/1529877/donald-trump-egypt-press-nyt-reporter-arrest.jpg?w=135&h=90&f=47336302d3ef09a5cdace79604526383" alt="Trump meeting"></a>
-                                <div>
-                                    <h7 class="d-flex justify-content-stretch mb-2">
-                                        <a class="sm-subtitle" href="">Trump Administration Ignored Threats to U.S. Journalists in Egypt: Report</a>
-                                    </h7>
-                                    <p>The New York Times said it was forced to turn to Ireland to help one of its reporters escape imminent arrest in Egypt, because the Trump administration failed to act.</p>
-                                </div>
-                            </li>
-                            <li class="list-group list-group-flush flex-row mb-2 py-3 border-top align-items-start"> 
-                                <a class="col-4 pl-0 img-fluid" href=""><img src="https://d.newsweek.com/en/full/1529855/boris-johnson.jpg?w=135&h=90&f=bca9b38018308a13780b3febc2fc00c7" alt="Trump meeting"></a>
-                                <div>
-                                    <h7 class="d-flex justify-content-stretch mb-2">
-                                        <a class="sm-subtitle" href="">U.K. Supreme Court Declares Suspending Parliament Unlawful, Null and Void</a>
-                                    </h7>
-                                    <p>Britain's highest court has ruled that prime minister Boris Johnson's prorogation of Parliament was unlawful.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </article>
+                    <ul class="pl-0">
+                        <li class="list-group list-group-flush flex-row mb-2 py-3 border-top align-items-start"> 
+                            <a class="col-4 pl-0 img-fluid" href=""><img src="https://d.newsweek.com/en/full/1529343/fe-scotus-01-banner.jpg?w=135&h=90&f=b007d12b69350d31e43b7e1b1b9254c4" alt="LGBT manifestation"></a>
+                            <article>
+                                <p class="p d-flex justify-content-stretch mb-2">
+                                    <a class="sm-subtitle" href="">
+                                    Three LGBTQ Cases Set to Test the Supreme Court's Conservative Principles
+                                    </a>
+                                </p>
+                                <p>Three explosive cases are about to test whether conservative Supreme Court justices are seen to rule according to their professed legal principles—or their politics.</p>
+                            </article>
+                        </li>
+                        <li class="list-group list-group-flush flex-row mb-2 py-3 border-top align-items-start"> 
+                            <a class="col-4 pl-0 img-fluid" href=""><img src="https://d.newsweek.com/en/full/1529877/donald-trump-egypt-press-nyt-reporter-arrest.jpg?w=135&h=90&f=47336302d3ef09a5cdace79604526383" alt="Trump meeting"></a>
+                            <article>
+                                <p class="p d-flex justify-content-stretch mb-2">
+                                    <a class="sm-subtitle" href="">Trump Administration Ignored Threats to U.S. Journalists in Egypt: Report</a>
+                                </p>
+                                <p>The New York Times said it was forced to turn to Ireland to help one of its reporters escape imminent arrest in Egypt, because the Trump administration failed to act.</p>
+                            </article>
+                        </li>
+                        <li class="list-group list-group-flush flex-row mb-2 py-3 border-top align-items-start"> 
+                            <a class="col-4 pl-0 img-fluid" href=""><img src="https://d.newsweek.com/en/full/1529855/boris-johnson.jpg?w=135&h=90&f=bca9b38018308a13780b3febc2fc00c7" alt="Trump meeting"></a>
+                            <article>
+                                <p class="p d-flex justify-content-stretch mb-2">
+                                    <a class="sm-subtitle" href="">U.K. Supreme Court Declares Suspending Parliament Unlawful, Null and Void</a>
+                                </p>
+                                <p>Britain's highest court has ruled that prime minister Boris Johnson's prorogation of Parliament was unlawful.</p>
+                            </article>
+                        </li>
+                    </ul>
                 </section>
                 <section id="culture-travel" class="order-md-2 pt-2 gray-background">
                     <h6 class="font-weight-bold text-black-50 pl-2">CULTURE AND TRAVEL</h6>
@@ -148,7 +146,7 @@
                         <article class=" col-md-6">
                             <img class="pb-3" src="https://d.newsweek.com/en/full/1523988/partingshot-andredeshields.jpg?w=397&h=265&f=d298c5bf38784b3a2ee847de6ee2d50c" alt="person with a prize">
                             <div class="pl-2">
-                                <h5>Hadestown's André De Shields Talks Diversity on Broadway</h5>
+                                <h5>Hadestown's Andre De Shields Talks Diversity on Broadway</h5>
                                 <p class="culture-travel">"There is no one like you. There has never been anyone like you. There shall never be anyone like you. Therefore, know thyself; be thyself."</p>
                                 <p class="c-t-tag p-1 d-inline-flex">Broadway</p>
                             </div>
@@ -180,77 +178,77 @@
                             <a href="">
                             <img class="pb-3" src="https://d.newsweek.com/en/full/1506994/gavin-newsom.png?w=63&amp;h=63&amp;f=5a69f34e1a9db84563ebdf2464f72721" alt="Gavin Newsom">
                             </a>
-                            <div class="col-9 pr-0">
-                                <h7 class="d-flex justify-content-stretch ">
+                            <article class="col-9 pr-0">
+                                <p class="p d-flex justify-content-stretch ">
                                     <a class="sm-subtitle" href="">
                                         California's Ambitious Climate Policies Are Fueling Our Economy—and Trump Won't Stop Us
                                     </a>
-                                </h7>
+                                </p>
                                 <p class="opinion-tag mb-0">BY GAVIN NEWSOM</p>
-                            </div>
+                            </article>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a href="">
                             <img src="https://d.newsweek.com/en/full/1529682/nicholas-stern.png?w=63&h=63&f=255f6318ba77ad1718ed37c0f3012d7c" alt="Nicholas Stern">
                             </a>
-                            <div class="col-9 pr-0">
-                                 <h7 class="d-flex justify-content-stretch">
+                            <article class="col-9 pr-0">
+                                 <p class="p d-flex justify-content-stretch">
                                     <a class="sm-subtitle" href="">
                                     Meeting the Challenge of Climate Change Is Key to 21st-Century Urban Growth
                                     </a>
-                                </h7>
+                                </p>
                                 <p class="opinion-tag mb-0">BY NICHOLAS STERN</p>
-                            </div>
+                            </article>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a href="">
                             <img src="https://d.newsweek.com/en/full/1507272/newt-gingrich-joe-desantis.png?w=63&h=63&f=1116a1a353a1b965077c9362ecb6fde4" alt="NEWT GINGRICH AND JOE DESANTIS">
                             </a>
-                            <div class="col-9 pr-0">
-                                 <h7 class="d-flex justify-content-stretch">
+                            <article class="col-9 pr-0">
+                                 <p class="p d-flex justify-content-stretch">
                                     <a class="sm-subtitle" href="">
                                         The Only Winner Out of Nancy Pelosi's Drug Plan Will Be China
                                     </a>
-                                </h7>
+                                </p>
                                 <p class="opinion-tag mb-0">BY NEWT GINGRICH AND JOE DESANTIS</p>
-                            </div>
+                            </article>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a href="https://www.newsweek.com/elizabeth-warren-philosopher-queen-wants-more-power-our-founding-fathers-thought-wise-opinion-1460520">
                             <img src="https://d.newsweek.com/en/full/1506965/charlie-kirk.png?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410" alt="Charlie Kirk">
                             </a>
-                            <div class="col-9 pr-0">
-                                <h7 class="d-flex justify-content-stretch">
+                            <article class="col-9 pr-0">
+                                <p class="d-flex justify-content-stretch">
                                     <a class="sm-subtitle" href="">
                                         Meet Elizabeth Warren, Philosopher Queen
                                     </a>
-                                </h7>
+                                </p>
                                 <p class="opinion-tag mb-0">BY CHARLIE KIRK</p>
-                            </div>
+                            </article>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a href="https://www.newsweek.com/lasting-climate-change-solutions-its-time-listen-young-people-color-opinion-1460268">
                             <img src="https://d.newsweek.com/en/full/1528901/nyiesha-mallet-asli-mwaafrika.png?w=63&h=63&f=303be28fb000279e24c718b54144fa92" alt="NYIESHA MALLET AND ASLI MWAAFRIKA">
                             </a>
-                            <div class="col-9 pr-0">
-                                <h7 class="d-flex justify-content-stretch">
+                            <article class="col-9 pr-0">
+                                <p class="d-flex justify-content-stretch">
                                     <a class="sm-subtitle" href="">
                                         Want to Fight Climate Change? Listen to Young People of Color
                                     </a>
-                                </h7>
+                                </p>
                                 <p class="opinion-tag mb-0">BY NYIESHA MALLET AND ASLI MWAAFRIKA</p>
-                            </div>
+                            </article>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom last-li">
                             <a href="https://www.newsweek.com/america-oil-children-yemen-saudi-iran-1460508">
                             <img src="https://d.newsweek.com/en/full/106454/anthony-harwood.png?w=63&h=63&f=586f7b7e3b6616431c41feae6fbad599" alt="ANTHONY HARWOOD">
                             </a>
                             <div class="col-9 pr-0">
-                                <h7 class="d-flex justify-content-stretch">
+                                <p class="d-flex justify-content-stretch">
                                     <a class="sm-subtitle" href="">
                                         America Looks Away From the Suffering in Yemen—Until Oil Is at Stake
                                     </a>
-                                </h7>
+                                </p>
                                 <p class="opinion-tag mb-0">BY ANTHONY HARWOOD</p>
                             </div>
                         </li>
@@ -262,59 +260,59 @@
                         <ul class="pl-3">
                             <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                                 <a class="col-2 col-lg-5 pl-0" href=""><img src="https://d.newsweek.com/en/full/1529730/mike-karen-pence-arrive-state-dinner.jpg?w=397&h=265&f=a1615c27a02af03ccd44903a1b80021a" alt="Pence & wife"></a>
-                                <h7 class="d-flex justify-content-stretch">
+                                <p class="d-flex justify-content-stretch">
                                     <a class="sm-subtitle" href="https://www.newsweek.com/karen-pence-twitter-reacts-new-account-1460845">
                                     Twitter Reacts to Pence Account Meant to Showcase Trump's Accomplishments
                                     </a>
-                                </h7>
+                                </p>
                             </li>
                             <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                                 <a class="col-2 col-lg-5 pl-0" href=""><img src="https://d.newsweek.com/en/full/1527650/hannah-brown.jpg?w=397&h=265&f=3f222c4a5fdfe5822a7934cd596ec213" alt="Woman in red dress"></a>
-                                <h7 class="d-flex justify-content-stretch">
+                                <p class="d-flex justify-content-stretch">
                                     <a class="sm-subtitle" href="https://www.newsweek.com/hannah-brown-dwts-trust-issues-1461081">
                                     Hannah Brown Says Trust Is Hard After 'Bachelorette' Breakup
                                     </a>
-                                </h7>
+                                </p>
                             </li>
                             <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                                 <a class="col-2 col-lg-5 pl-0" href=""><img src="https://d.newsweek.com/en/full/1530044/greta-thunberg-un-climate-action-summit.jpg?w=397&h=265&f=68132a55fe2c786dc3e835640e8d02d6" alt="Greta Thunberg"></a>
-                                <h7 class="d-flex justify-content-stretch">
+                                <p class="d-flex justify-content-stretch">
                                     <a class="sm-subtitle" href="https://www.newsweek.com/16-year-old-greta-thunberg-trolls-trump-changing-twitter-bio-after-he-mocked-her-1461078">
                                     Greta Thunberg Trolls Trump By Changing Twitter Bio
                                     </a>
-                                </h7>
+                                </p>
                             </li>
                             <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                                 <a class="col-2 col-lg-5 pl-0" href=""><img src="https://d.newsweek.com/en/full/1530047/white-chocolate.jpg?w=397&h=265&f=e48937bfbae2ddbec9e8e5fa6e901482" alt="White chocolate bar"></a>
-                                <h7 class="d-flex justify-content-stretch">
+                                <p class="d-flex justify-content-stretch">
                                     <a class="sm-subtitle" href="https://www.newsweek.com/lawsuit-nestle-fake-white-chocolate-1461029">
                                     Bakers Sue Nestlé For Selling 'Fake' White Chocolate
                                     </a>
-                                </h7>
+                                </p>
                             </li>
                             <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                                 <a class="col-2 col-lg-5 pl-0" href=""><img src="https://d.newsweek.com/en/full/1530021/picasso-blue-period-hidden-image.png?w=397&h=265&f=ad98de707cae096a92e3feabb1e1eef1" alt="Pain by Picasso"></a>
-                                <h7 class="d-flex justify-content-stretch">
+                                <p class="d-flex justify-content-stretch">
                                     <a class="sm-subtitle" href="https://www.newsweek.com/picasso-painted-over-portrait-sitting-woman-ai-reconstructed-lost-art-1461052">
                                     An AI Has Reconstructed the Lost Work of Art By Picasso
                                     </a>
-                                </h7>
+                                </p>
                             </li>
                             <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                                 <a class="col-2 col-lg-5 pl-0" href=""><img src="https://d.newsweek.com/en/full/1530050/wilbur-ross-sleeping-un-speech.png?w=397&h=265&f=9c87c056cdfe2fbea37449d9d381d249" alt="Wilbur Ross sleeping"></a>
-                                <h7 class="d-flex justify-content-stretch">
+                                <p class="d-flex justify-content-stretch">
                                     <a class="sm-subtitle" href="https://www.newsweek.com/wilbur-ross-falls-asleep-un-trump-speech-nap-closes-eyes-old-age-commerce-secretary-china-1461082">
                                     Watch: Commerce Secretary Wilbur Ross Falls Asleep During Trump UN Speech
                                     </a>
-                                </h7>
+                                </p>
                             </li>
                             <li class="list-group list-group-flush flex-row mb-2 pb-2">
                                 <a class="col-2 col-lg-5 pl-0" href=""><img src="https://d.newsweek.com/en/full/1530037/cdc-investigating-vaping-illnesses.jpg?w=397&h=265&f=77bf25bcfabac96d86bcafdb30fb0716" alt="Man vaping"></a>
-                                <h7 class="d-flex justify-content-stretch">
+                                <p class="d-flex justify-content-stretch">
                                     <a class="sm-subtitle" href="https://www.newsweek.com/no-brand-product-substance-ruled-out-cdc-vaping-investigation-1461076">
                                     Exact Cause of Vaping Illness Outbreak Remains Unknown, CDC Warns
                                     </a>
-                                </h7>
+                                </p>
                             </li>
                         </ul>
                         <section class="d-flex justify-content-center col-12 px-5 w-auto col-6 col-lg-12">
@@ -324,7 +322,7 @@
                                     <h4 class="font-weight-bold text-dark newsletter">SIGN UP FOR OUR NEWSLETTER</h4>
                                 </div>
                                 <button class="btn btn-secondary rounded-0 font-weight-bold my-2 align-self-start">SIGN UP ></button>
-                                <h8 class="font-weight-bold text-secondary">Update your preferences >></h8>
+                                <p class="font-weight-bold text-secondary">Update your preferences >></p>
                             </div>
                         </section>
                     </article>
@@ -544,27 +542,27 @@
                     <ul class="pl-3">
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1530352/poldark-season-5-pbs.jpg?w=135&h=90&l=51&t=46&f=f56a8cbf91309f52ac48a22a92e813ee" alt="Poldark show"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">                                
                                     'Poldark' Season 5 on PBS Release Date, Cast, Trailer, Plot
                                 </a>
-                            </h7>
+                            </p>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1530398/yiddish-dogs.jpg?w=135&h=90&f=40639d90c651d2b57aace4d3473f9470" alt="People and dog"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">                                
                                     New York City Program Teaches Yiddish to Dogs
                                 </a>
-                            </h7>
+                            </p>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1529491/rudy-giuliani.jpg?w=135&h=90&f=e4d3c8244a40160349394862e535b200" alt="Rudy Giuliani"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">                                
                                     Rudy Giuliani Tells Critic: 'Shut Up, Moron' While Discussing Ukraine
                                 </a>
-                            </h7>
+                            </p>
                         </li>
                     </ul>
                 </aside>
@@ -585,27 +583,27 @@
                     <ul class="pl-3">
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1530272/archie-meets-archbishop-tutu.jpg?w=135&h=90&f=de104ba22ce8943f50776d81c7a6262f" alt="Royal baby"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">                                
                                     'Old Soul': Royal Baby Archie Meets Desmond Tutu in South Africa
                                 </a>
-                            </h7>
+                            </p>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1530232/trans-mountain-pipeline-protest.jpg?w=135&h=90&f=80eb62db0d0c6242a19c35cba3f686c0" alt="Manifestation"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">                                
                                     Opponents Slam Justin Trudeau's Climate Plan: 'You. Bought. A. Pipeline.'
                                 </a>
-                            </h7>
+                            </p>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1530150/donald-trump-nancy-pelosi-impeachment.jpg?w=135&h=90&f=6dc60bbe0342e86332c10a9b95ee2d7b" alt="Donal Trump"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">                                
                                     With Talks of Impeaching Trump, Which World Leaders Have Been Kicked Out?
                                 </a>
-                            </h7>
+                            </p>
                         </li>
                     </ul>
                 </aside>
@@ -626,21 +624,21 @@
                     <ul class="pl-3">
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1529039/glenn-beck-blazetv-financial-crisis-2008-recession.jpg?w=135&h=90&l=53&t=62&f=0f4e5f430fed90e564d21059d946a923" alt="Glenn Beck"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">Glenn Beck Sounds Alarm on Economy Over Repo Market: 'I'm Warning You'</a>
-                            </h7>
+                            </p>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1528248/nutella.jpg?w=135&h=90&f=8a391a26914a66761650db746e45ede4" alt="Nutella jar"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">Truck Loaded With 44,000 Pounds of Nutella Flips Over</a>
-                            </h7>
+                            </p>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1527520/sodomite-renee-garrish.png?w=135&h=90&f=44021c7b9276a6650fed59585f1b7398" alt="Rainbow tag"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">'Sodomite' Scrawled on Delta Passenger's Rainbow-colored Luggage Tag</a>
-                            </h7>
+                            </p>
                         </li>
                     </ul>
                 </aside>
@@ -661,21 +659,21 @@
                     <ul class="pl-3">
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1525321/t-rex-alligators.jpg?w=135&h=90&f=f1cc60079a7a5d3502b89e51a1db0ce2" alt="T-rex"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">Here's Why Tyrannosaurus Rex's Bite Didn't Shatter the Dinosaur's Own Skull</a>
-                            </h7>
+                            </p>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1530319/hospital-computer.jpg?w=135&h=90&f=299a43d18882669d8f021d3491438e19" alt="X-ray"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">AI Is Just As Good As Medical Professionals at Spotting Disease, Study Says</a>
-                            </h7>
+                            </p>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1529597/tea-green-tea-drink-health-stock-getty.jpg?w=135&h=90&f=7817bcb6e626fe5670747544fbdafc71" alt="Tea cup"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">Teabags Can Release Billions of Microplastics into Your Drink, Study Finds</a>
-                            </h7>
+                            </p>
                         </li>
                     </ul>
                 </aside>
@@ -696,21 +694,21 @@
                     <ul class="pl-3">
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1530322/joseph-evans-jr.jpg?w=135&h=90&f=33408e1fa39acef1bc89fe44bced2300" alt="Convicted"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">Joseph Evans Jr.: Convicted Killer Claims 'Making a Murderer' Slaying</a>
-                            </h7>
+                            </p>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1530243/mattel-gender-neutral-doll.jpg?w=135&h=90&f=09ffabcca90a66e6a03174a182f20a7a" alt="Black dolls"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">Mattel Launches Gender-Neutral Doll Line</a>
-                            </h7>
+                            </p>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1530172/7-best-bookshops-london.jpg?w=135&h=90&f=bb94c74b765f332d40f4a09ea5c1462c" alt="Shop front"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">7 Best Bookshops in London</a>
-                            </h7>
+                            </p>
                         </li>
                     </ul>
                 </aside>
@@ -731,21 +729,21 @@
                     <ul class="pl-3">
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1530013/wwe-fiend-seth-rollins-monday-night-raw.jpg?w=135&h=90&l=64&t=42&f=b8cc2f2b458b17f87cd0ed169a4e1101" alt="WWE fight"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">The Fiend and Seth Rollins Fight After RAW Goes Off the Air</a>
-                            </h7>
+                            </p>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2 border-bottom">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1529915/impact-wrestling-axs-tv-premiere-date.jpg?w=135&h=90&f=6a846e070e59a93e8466ef752e69f497" alt="Show"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">Impact Wrestling's AXS TV Premiere Date Set</a>
-                            </h7>
+                            </p>
                         </li>
                         <li class="list-group list-group-flush flex-row mb-2 pb-2">
                             <a class="col-5 p-0" href=""><img class="col-12 pl-0" src="https://d.newsweek.com/en/full/1529756/wwe-bray-wyatt-seth-rollins-monday-raw.jpg?w=135&h=90&f=b999d52d47c774b36c63c35edaf986f4" alt="Wrestlers"></a>
-                            <h7 class="d-flex justify-content-stretch">
+                            <p class="d-flex justify-content-stretch">
                                 <a class="sm-subtitle" href="">Monday Night RAW Results (9/24)</a>
-                            </h7>
+                            </p>
                         </li>
                     </ul>
                 </aside>
@@ -815,8 +813,8 @@
                     <li class="list-group-item p-1 border-bottom-0 border-top-0"><a href="">Consent Preferences</a></li>
                 </ul>
                 <div class="col-lg-3 d-flex pl-1">
-                    <label for="#editions" class="d-flex justify-content-end pt-1">Editions:</label>
-                    <ul id="editions"class="list-group list-group-horizontal d-flex flex-wrap align-items-start justify-content-start list-group-flush border-0">
+                    <p class="d-flex justify-content-end pt-1">Editions:</p>
+                    <ul id="editions" class="list-group list-group-horizontal d-flex flex-wrap align-items-start justify-content-start list-group-flush border-0">
                     <li class="list-group-item px-2 py-1 border-bottom-0 border-top-0"><a class="border-right pr-2" href="">U.S. Edition</a></li>
                     <li class="list-group-item px-2 py-1 border-bottom-0 border-top-0"><a class="border-right pr-2" href="">日本</a></li>
                     <li class="list-group-item px-2 py-1 border-bottom-0 border-top-0"><a class="border-right pr-2" href="">한국</a></li>
