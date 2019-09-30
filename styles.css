@@ -175,7 +175,7 @@ main article img {
 }
 
 .img-tag {
-  bottom: 0;
+  bottom: -8px;
   left: 0;
   position: absolute;
   color: #f72210;
