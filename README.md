@@ -21,7 +21,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://majovainilla.github.io/bootstrap-project/">
+  <a href="https://majovanilla.github.io/bootstrap-project/">
     <img src="https://pathwright.imgix.net/https%3A%2F%2Fcdn.filestackcontent.com%2Fapi%2Ffile%2FhFM023QFSSVrsK4ZUCZd%3Fsignature%3D888b9ea3eb997a4d59215bfbe2983c636df3c7da0ff8c6f85811ff74c8982e34%26policy%3DeyJjYWxsIjogWyJyZWFkIiwgInN0YXQiLCAiY29udmVydCJdLCAiZXhwaXJ5IjogNDYyMDM3NzAzMX0%253D?fit=crop&ixlib=python-1.1.0&w=500&s=2c2c850301ed2185fd4227f759f77483" alt="Logo" width="80" height="80">
   </a>
 
@@ -30,14 +30,14 @@
   <p align="center">
     This project is part of the Microverse CSS3 and HTML curriculum!
     <br />
-    <a href="https://github.com/majovainilla/bootstrap-project"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/majovanilla/bootstrap-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://majovainilla.github.io/bootstrap-project/">View Demo</a>
+    <a href="https://majovanilla.github.io/bootstrap-project/">View Demo</a>
     ·
-    <a href="https://github.com/majovainilla/bootstrap-project/issues">Report Bug</a>
+    <a href="https://github.com/majovanilla/bootstrap-project/issues">Report Bug</a>
     ·
-    <a href="https://github.com/majovainilla/bootstrap-project/issues">Request Feature</a>
+    <a href="https://github.com/majovanilla/bootstrap-project/issues">Request Feature</a>
   </p>
 </p>
 
@@ -53,7 +53,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://majovainilla.github.io/bootstrap-project/)
+[![Product Name Screen Shot][product-screenshot]](https://majovanilla.github.io/bootstrap-project/)
 
 This project is a prototype based on the [Newsweek](https://www.newsweek.com/) webpage.
 
@@ -75,14 +75,14 @@ This project was built using these technologies.
 <!-- LIVE VERSION -->
 ## Live version
 
-You can see it here:  https://majovainilla.github.io/bootstrap-project/
+You can see it here:  https://majovanilla.github.io/bootstrap-project/
 
 <!-- CONTACT -->
 ## Contact
 
-María José Reyes - [@sabes_maria](https://twitter.com/Sabes_Maria) - [@majovainilla](https://github.com/majovainilla) - maria_reyes@me.com
+María José Reyes - [@sabes_maria](https://twitter.com/Sabes_Maria) - [@majovanilla](https://github.com/majovanilla) - maria_reyes@me.com
 
-Project Link: [https://github.com/majovainilla/bootstrap-project)
+Project Link: [https://github.com/majovanilla/bootstrap-project)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -92,12 +92,12 @@ Project Link: [https://github.com/majovainilla/bootstrap-project)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/majovainilla/bootstrap-project.svg?style=flat-square
-[contributors-url]: https://github.com/majovainilla/bootstrap-project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/majovainilla/bootstrap-project.svg?style=flat-square
-[forks-url]: https://github.com/majovainilla/rbootstrap-project/network/members
-[stars-shield]: https://img.shields.io/github/stars/majovainilla/bootstrap-project.svg?style=flat-square
-[stars-url]: https://github.com/majovainilla/bootstrap-project/stargazers
-[issues-shield]: https://img.shields.io/github/issues/majovainilla/bootstrap-project.svg?style=flat-square
-[issues-url]: https://github.com/majovainilla/bootstrap-project/issues
+[contributors-shield]: https://img.shields.io/github/contributors/majovanilla/bootstrap-project.svg?style=flat-square
+[contributors-url]: https://github.com/majovanilla/bootstrap-project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/majovanilla/bootstrap-project.svg?style=flat-square
+[forks-url]: https://github.com/majovanilla/rbootstrap-project/network/members
+[stars-shield]: https://img.shields.io/github/stars/majovanilla/bootstrap-project.svg?style=flat-square
+[stars-url]: https://github.com/majovanilla/bootstrap-project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/majovanilla/bootstrap-project.svg?style=flat-square
+[issues-url]: https://github.com/majovanilla/bootstrap-project/issues
 [product-screenshot]: img/project.PNG
